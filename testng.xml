@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/garymar2007/TestNG-example">
+        <classes>
+            <class name="com.gary.FirstTest">
+                <methods>
+                    <include name="givenNumber_whenEvent_thenTrue"/>
+                </methods>
+            </class>
+            <class name="com.gary.ParameterizedLongRunningUnitTest">
+                <methods>
+                    <include name="givenNumberFromDataProvider_ifEvenCheckOK_thenCorrect"/>
+                    <include name="givenNumberObjectFromDataProvider_ifEvenCheckOK_thenCorrect"/>
+                </methods>
+            </class>
+            <class name="com.gary.integration.testgroup.GroupIntegrationTest">
+                <methods>
+                    <include name="runSelenium"/>
+                    <include name="runSelenium1"/>
+                    <include name="testConnectOracle"/>
+                    <include name="testConnectMsSQL"/>
+                </methods>
+            </class>
+            <class name="com.gary.integration.testgroup.MultiThreadedIntegrationTest">
+                <methods>
+                    <include name="givenMethod_whenRunInThreads_thenCorrect"/>
+                </methods>
+            </class>
+            <class name="com.gary.integration.testgroup.SummationServiceIntegrationTest">
+                <methods>
+                    <include name="givenNumbers_sumEquals_thenCorrect"/>
+                    <include name="givenEmptyList_sumEqualsZero_thenCorrect"/>
+                    <include name="givenNegativeNumber_sumLessthanZero_thenCorrect"/>
+                    <include name="givenNumber_whenThrowsException_thenCorrect"/>
+                </methods>
+            </class>
+            <class name="com.gary.integration.testgroup.TimeoutIntegrationTest">
+                <methods>
+                    <include name="givenExecution_takeMoreTime_thenFail"/>
+                </methods>
+            </class>
+            <class name="com.gary.testsuite.RegistrationLongRunningUnitTest">
+                <methods>
+                    <include name="whenCalledFromSuite_thanOK"/>
+                </methods>
+            </class>
+            <class name="com.gary.testsuite.SignInLongRunningUnitTest">
+                <methods>
+                    <include name="whenCalledFromSuite_thanOK"/>
+                </methods>
+            </class>
+            <class name="com.gary.testsuite.SimpleLongRunningUnitTest">
+                <methods>
+                    <include name="givenNumber_whenEven_thenTrue"/>
+                </methods>
+            </class>
+            <class name="com.gary.unittest.DependentLongRunningUnitTest">
+                <methods>
+                    <include name="givenEmail_ifValid_thenTrue"/>
+                </methods>
+            </class>
+            <class name="com.gary.unittest.PriorityLongRunningUnitTest">
+                <methods>
+                    <include name="givenString_whenChangedToInt_thenCorrect"/>
+                    <include name="givenInt_whenChangedToString_thenCorrect"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

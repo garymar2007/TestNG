@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/garymar2007/TestNG-example(failed)">
+    <classes>
+      <class name="com.gary.integration.testgroup.SummationServiceIntegrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="runAfterEachTest"/>
+          <include name="initialize"/>
+          <include name="runBeforeEachTest"/>
+          <include name="runBeforeRegressionSuite"/>
+          <include name="runAfterRegressionSuite"/>
+          <include name="givenNegativeNumber_sumLessthanZero_thenCorrect"/>
+        </methods>
+      </class> <!-- com.gary.integration.testgroup.SummationServiceIntegrationTest -->
+    </classes>
+  </test> <!-- C:/garymar2007/TestNG-example(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
