@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="int">
+    <test name="integration tests">
+        <classes>
+            <class name="com.gary.integration.testgroup.GroupIntegrationTest" />
+            <class name="com.gary.integration.testgroup.MultiThreadedIntegrationTest" />
+            <class name="com.gary.integration.testgroup.TimeoutIntegrationTest" />
+        </classes>
+    </test>
+</suite>
