@@ -14,6 +14,18 @@
                     <include name="givenNumberObjectFromDataProvider_ifEvenCheckOK_thenCorrect"/>
                 </methods>
             </class>
+            <class name="com.gary.beforeafter.TC1">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+            <class name="com.gary.beforeafter.TC2">
+                <methods>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
             <class name="com.gary.integration.testgroup.GroupIntegrationTest">
                 <methods>
                     <include name="runSelenium"/>
