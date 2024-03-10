@@ -1,4 +1,4 @@
-package com.gary.dependcyAndAlwaysRun;
+package com.gary.dependencyAndAlwaysRun;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
