@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
  * The default order of execution is alphabetical order.  With the help of priority, you may re-order the test.
  * In default, enabled=true for all tests.
  */
-public class PrrorityExample {
+public class PriorityExample {
     @Test(priority = 0)
     void testOne() {
         System.out.println("This is test1!");
